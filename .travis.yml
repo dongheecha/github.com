@@ -8,7 +8,7 @@ script:
         - npm test
         - npm run build
         
-deploy
+deploy:
         - provider: page
         - local_dir : build
         
